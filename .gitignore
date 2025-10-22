@@ -1,0 +1,51 @@
+# Archivos y carpetas del sistema
+.DS_Store
+Thumbs.db
+
+# Configuraciones locales de VS Code
+.vscode/
+
+# Archivos de entorno
+.env
+.env.*
+
+# Carpetas de dependencias
+node_modules/
+__pycache__/
+*.pyc
+
+# Archivos de compilación
+dist/
+build/
+
+# Logs y archivos temporales
+*.log
+*.tmp
+
+# Archivos de Docker
+pgdata/
+*.pid
+
+# Archivos de entorno de prueba
+*.sqlite3
+
+# Archivos de configuración de sistema
+.idea/
+*.iml
+
+# Entornos virtuales de Python
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Carpetas de caché de Python
+.pytest_cache/
+.cache/
+
+# Archivos de Docker Compose generados
+docker-compose.override.yml
+
+# Carpetas de datos persistentes
+data/
